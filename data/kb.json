@@ -1,0 +1,720 @@
+[
+    {
+        "Disease": "Common Cold",
+        "Category": "Respiratory",
+        "Symptoms": "Runny nose, sneezing, sore throat, cough, mild fever, headache",
+        "Ayurvedic_Treatment": "Tulsi (Holy Basil) tea, ginger-honey mixture, steam inhalation with eucalyptus oil, Sitopaladi churna, Talisadi churna",
+        "Homeopathic_Treatment": "Allium cepa (for watery eyes and runny nose), Arsenicum album (for burning nasal discharge), Natrum muriaticum (for clear nasal discharge), Pulsatilla (for thick yellow-green discharge)",
+        "Allopathic_Treatment": "Rest, fluids, OTC decongestants, antihistamines, NSAIDs for fever and pain relief"
+    },
+    {
+        "Disease": "Influenza (Flu)",
+        "Category": "Respiratory",
+        "Symptoms": "High fever, body aches, fatigue, headache, dry cough, sore throat",
+        "Ayurvedic_Treatment": "Turmeric milk, ginger-tulsi decoction, honey with black pepper, Tribhuvankirti ras, Sudarsana churna",
+        "Homeopathic_Treatment": "Oscillococcinum, Gelsemium (for exhaustion and chills), Bryonia (for dry cough and body pain), Eupatorium perfoliatum (for deep bone pain)",
+        "Allopathic_Treatment": "Antiviral medications (oseltamivir, zanamivir), NSAIDs, rest, fluids, acetaminophen"
+    },
+    {
+        "Disease": "Pneumonia",
+        "Category": "Respiratory",
+        "Symptoms": "Chest pain, productive cough, fever, shortness of breath, fatigue",
+        "Ayurvedic_Treatment": "Sitopaladi churna, Talisadi churna, Yashtimadhu (licorice), Vasa leaf decoction, warm mustard oil chest massage",
+        "Homeopathic_Treatment": "Antimonium tartaricum (for rattling cough), Phosphorus (for burning chest pain), Bryonia (for sharp chest pain), Kali carbonicum (for weakness and lower chest pain)",
+        "Allopathic_Treatment": "Antibiotics, antivirals for viral pneumonia, oxygen therapy if needed, bronchodilators, expectorants"
+    },
+    {
+        "Disease": "Bronchitis",
+        "Category": "Respiratory",
+        "Symptoms": "Persistent cough with mucus, chest discomfort, fatigue, mild fever",
+        "Ayurvedic_Treatment": "Kantakari (Solanum xanthocarpum), honey with ginger juice, Sitopaladi churna, Talisadi churna, steam inhalation",
+        "Homeopathic_Treatment": "Antimonium tartaricum (for rattling cough), Bryonia (for dry, painful cough), Pulsatilla (for loose cough with yellow-green discharge), Rumex crispus (for dry cough worsened by cold air)",
+        "Allopathic_Treatment": "Antibiotics (if bacterial), bronchodilators, cough suppressants, mucolytics, corticosteroids"
+    },
+    {
+        "Disease": "Asthma",
+        "Category": "Respiratory",
+        "Symptoms": "Wheezing, shortness of breath, chest tightness, coughing",
+        "Ayurvedic_Treatment": "Vasaka (Adhatoda vasica), Shirisha (Albizia lebbeck), Pushkarmool (Inula racemosa), Pranayama (breathing exercises), Chyawanprash",
+        "Homeopathic_Treatment": "Arsenicum album (for anxiety with breathing difficulty), Ipecacuanha (for cough with nausea), Natrum sulphuricum (for asthma worsened by humidity), Blatta orientalis (for chronic asthma)",
+        "Allopathic_Treatment": "Inhaled corticosteroids, bronchodilators (short and long-acting), leukotriene modifiers, biologics, oxygen therapy when needed"
+    },
+    {
+        "Disease": "Allergic Rhinitis",
+        "Category": "Respiratory",
+        "Symptoms": "Sneezing, itchy nose/eyes/throat, watery eyes, runny nose",
+        "Ayurvedic_Treatment": "Haridra (turmeric), Yashtimadhu (licorice), Guduchi (Tinospora cordifolia), Neti pot with saline water, Nasya therapy",
+        "Homeopathic_Treatment": "Allium cepa (for watery eyes and runny nose), Euphrasia (for burning watery eyes), Sabadilla (for violent sneezing), Histaminum (for allergic symptoms)",
+        "Allopathic_Treatment": "Antihistamines, nasal corticosteroids, decongestants, leukotriene receptor antagonists, immunotherapy"
+    },
+    {
+        "Disease": "Tuberculosis",
+        "Category": "Respiratory",
+        "Symptoms": "Persistent cough (often with blood), chest pain, weight loss, night sweats, fatigue",
+        "Ayurvedic_Treatment": "Vasaka (Adhatoda vasica), Haridra (turmeric), Amalaki (Indian gooseberry), Pippali (long pepper), immune-boosting herbs like Guduchi",
+        "Homeopathic_Treatment": "Tuberculinum, Phosphorus (for chronic cough with blood), Stannum metallicum (for weakness with sweating), Calcarea phosphorica (for emaciation)",
+        "Allopathic_Treatment": "Antibiotics combination therapy (isoniazid, rifampin, ethambutol, pyrazinamide), extended treatment course (6+ months)"
+    },
+    {
+        "Disease": "Hypertension",
+        "Category": "Cardiovascular",
+        "Symptoms": "Often asymptomatic; headaches, shortness of breath, nosebleeds in severe cases",
+        "Ayurvedic_Treatment": "Arjuna (Terminalia arjuna), Brahmi (Bacopa monnieri), Shankhpushpi (Convolvulus pluricaulis), Sarpagandha (Rauwolfia serpentina), yoga, meditation",
+        "Homeopathic_Treatment": "Lachesis (for left-sided issues), Glonoinum (for violent throbbing headaches), Baryta carbonica (for elderly with hardening arteries), Crataegus (for heart weakness)",
+        "Allopathic_Treatment": "ACE inhibitors, ARBs, beta-blockers, calcium channel blockers, diuretics, lifestyle modifications"
+    },
+    {
+        "Disease": "Coronary Artery Disease",
+        "Category": "Cardiovascular",
+        "Symptoms": "Chest pain (angina), shortness of breath, fatigue, dizziness",
+        "Ayurvedic_Treatment": "Arjuna (Terminalia arjuna), Pushkarmool (Inula racemosa), Guggulu (Commiphora mukul), Lashuna (garlic), specific yoga asanas",
+        "Homeopathic_Treatment": "Crataegus (for heart weakness), Digitalis (for weak pulse), Cactus grandiflorus (for constricting chest pain), Latrodectus mactans (for radiating pain)",
+        "Allopathic_Treatment": "Antiplatelet medications, statins, beta-blockers, nitrates, calcium channel blockers, surgical interventions (angioplasty, bypass surgery)"
+    },
+    {
+        "Disease": "Heart Failure",
+        "Category": "Cardiovascular",
+        "Symptoms": "Shortness of breath, fatigue, swelling in legs/ankles, rapid heartbeat",
+        "Ayurvedic_Treatment": "Arjuna (Terminalia arjuna), Punarnava (Boerhavia diffusa), Gokshura (Tribulus terrestris), heart-strengthening Rasayana formulations",
+        "Homeopathic_Treatment": "Digitalis (for weak pulse with edema), Apocynum cannabinum (for edema with weak heart), Crataegus (for heart weakness), Adonis vernalis (for water retention)",
+        "Allopathic_Treatment": "ACE inhibitors, ARBs, beta-blockers, diuretics, aldosterone antagonists, digoxin, biventricular pacemakers"
+    },
+    {
+        "Disease": "Arrhythmias",
+        "Category": "Cardiovascular",
+        "Symptoms": "Palpitations, racing heartbeat, chest discomfort, dizziness, fainting",
+        "Ayurvedic_Treatment": "Arjuna (Terminalia arjuna), Shankhpushpi (Convolvulus pluricaulis), Brahmi (Bacopa monnieri), Jatamansi (Nardostachys jatamansi)",
+        "Homeopathic_Treatment": "Digitalis (for irregular pulse), Lachesis (for palpitations worse during sleep), Spigelia (for sharp, stabbing pains), Crataegus (for heart irregularity)",
+        "Allopathic_Treatment": "Antiarrhythmic medications, blood thinners, cardioversion, catheter ablation, pacemakers, implantable cardioverter-defibrillators"
+    },
+    {
+        "Disease": "Deep Vein Thrombosis",
+        "Category": "Cardiovascular",
+        "Symptoms": "Swelling, pain, warmth, and redness in affected limb (usually leg)",
+        "Ayurvedic_Treatment": "Lashuna (garlic), Maricha (black pepper), Turmeric, Triphala, gentle massage with medicated oils",
+        "Homeopathic_Treatment": "Hamamelis (for venous congestion), Arnica montana (for trauma and pain), Lachesis (for left-sided issues), Vipera (for severe pain in affected area)",
+        "Allopathic_Treatment": "Anticoagulants (heparin, warfarin, DOACs), thrombolytics, compression stockings, surgical interventions"
+    },
+    {
+        "Disease": "Diabetes Type 2",
+        "Category": "Endocrine",
+        "Symptoms": "Increased thirst/hunger, frequent urination, fatigue, blurred vision, slow-healing wounds",
+        "Ayurvedic_Treatment": "Gurmar (Gymnema sylvestre), Neem (Azadirachta indica), Jamun (Syzygium cumini), Karela (bitter gourd), Triphala, Vijaysar",
+        "Homeopathic_Treatment": "Uranium nitricum (for excessive urination and sugar), Phosphoric acid (for weakness), Syzygium jambolanum (for pancreatic support), Gymnema sylvestre (for sugar cravings)",
+        "Allopathic_Treatment": "Metformin, sulfonylureas, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor agonists, insulin therapy, lifestyle modifications"
+    },
+    {
+        "Disease": "Hypothyroidism",
+        "Category": "Endocrine",
+        "Symptoms": "Fatigue, weight gain, cold intolerance, dry skin, constipation, depression",
+        "Ayurvedic_Treatment": "Kanchanara (Bauhinia variegata), Guggulu, Jatamansi (Nardostachys jatamansi), Ashwagandha (Withania somnifera), Brahmi (Bacopa monnieri)",
+        "Homeopathic_Treatment": "Thyroidinum, Calcarea carbonica (for cold intolerance and fatigue), Natrum muriaticum (for depression with thyroid issues), Fucus vesiculosus (seaweed extract)",
+        "Allopathic_Treatment": "Levothyroxine (synthetic thyroid hormone replacement), regular monitoring and dose adjustments"
+    },
+    {
+        "Disease": "Hyperthyroidism",
+        "Category": "Endocrine",
+        "Symptoms": "Weight loss, increased heart rate, anxiety, tremors, heat intolerance, bulging eyes",
+        "Ayurvedic_Treatment": "Apamarga (Achyranthes aspera), Kanchanara (Bauhinia variegata), Guduchi (Tinospora cordifolia), cooling herbs, stress-reducing practices",
+        "Homeopathic_Treatment": "Iodum (for emaciation with hunger), Natrum muriaticum (for neck swelling), Lycopus (for rapid heart rate), Fucus vesiculosus (seaweed extract)",
+        "Allopathic_Treatment": "Antithyroid medications (methimazole, propylthiouracil), beta-blockers, radioactive iodine therapy, surgery"
+    },
+    {
+        "Disease": "PCOS (Polycystic Ovary Syndrome)",
+        "Category": "Endocrine",
+        "Symptoms": "Irregular periods, excess hair growth, acne, weight gain, infertility",
+        "Ayurvedic_Treatment": "Lodhra (Symplocos racemosa), Ashoka (Saraca indica), Shatavari (Asparagus racemosus), Chandraprabha vati, Kanchanara guggulu",
+        "Homeopathic_Treatment": "Pulsatilla (for menstrual irregularities), Sepia (for hormonal imbalance), Graphites (for skin issues), Calcarea carbonica (for metabolic issues)",
+        "Allopathic_Treatment": "Combined oral contraceptives, anti-androgens, metformin, fertility treatments, lifestyle modifications"
+    },
+    {
+        "Disease": "Adrenal Insufficiency",
+        "Category": "Endocrine",
+        "Symptoms": "Fatigue, weight loss, darkening of skin, low blood pressure, nausea",
+        "Ayurvedic_Treatment": "Ashwagandha (Withania somnifera), Bala (Sida cordifolia), Shatavari (Asparagus racemosus), Guduchi (Tinospora cordifolia)",
+        "Homeopathic_Treatment": "Natrum muriaticum (for weakness with salt cravings), Arsenicum album (for exhaustion and anxiety), Phosphoric acid (for profound weakness)",
+        "Allopathic_Treatment": "Corticosteroids (hydrocortisone, fludrocortisone), lifestyle adaptations, emergency protocols"
+    },
+    {
+        "Disease": "Gastritis",
+        "Category": "Digestive",
+        "Symptoms": "Abdominal pain, nausea, vomiting, bloating, indigestion",
+        "Ayurvedic_Treatment": "Amalaki (Indian gooseberry), Yashtimadhu (licorice), Shatavari (Asparagus racemosus), Guduchi (Tinospora cordifolia), dietary adjustments",
+        "Homeopathic_Treatment": "Nux vomica (for burning pain and irritability), Arsenicum album (for burning pain with anxiety), Phosphorus (for burning pain with thirst), Carbo vegetabilis (for bloating)",
+        "Allopathic_Treatment": "Proton pump inhibitors, H2 blockers, antacids, antibiotics (for H. pylori), dietary modifications"
+    },
+    {
+        "Disease": "Peptic Ulcer Disease",
+        "Category": "Digestive",
+        "Symptoms": "Burning stomach pain, feeling of fullness, bloating, heartburn, nausea",
+        "Ayurvedic_Treatment": "Yashtimadhu (licorice), Shatavari (Asparagus racemosus), Amalaki (Indian gooseberry), dietary modifications, stress reduction",
+        "Homeopathic_Treatment": "Nux vomica (for burning pain with irritability), Arsenicum album (for burning pain with anxiety), Phosphorus (for ulcers with bleeding tendency), Lycopodium (for right-sided symptoms)",
+        "Allopathic_Treatment": "Proton pump inhibitors, H2 blockers, antibiotics (for H. pylori), cytoprotective agents, antacids"
+    },
+    {
+        "Disease": "Inflammatory Bowel Disease (Crohn's and Ulcerative Colitis)",
+        "Category": "Digestive",
+        "Symptoms": "Abdominal pain, diarrhea (often bloody), fatigue, weight loss, reduced appetite",
+        "Ayurvedic_Treatment": "Kutaja (Holarrhena antidysenterica), Bilva (Aegle marmelos), Nagkesar (Mesua ferrea), Lodhra (Symplocos racemosa), Panchakarma therapy",
+        "Homeopathic_Treatment": "Mercurius corrosivus (for bloody diarrhea), Phosphorus (for bloody diarrhea with weakness), Arsenicum album (for burning pain with anxiety), Podophyllum (for painless diarrhea)",
+        "Allopathic_Treatment": "Aminosalicylates, corticosteroids, immunomodulators, biologics, JAK inhibitors, surgery when necessary"
+    },
+    {
+        "Disease": "Irritable Bowel Syndrome",
+        "Category": "Digestive",
+        "Symptoms": "Abdominal pain, bloating, gas, diarrhea or constipation, mucus in stool",
+        "Ayurvedic_Treatment": "Fennel seeds, Jeeraka (cumin), Dhanyaka (coriander), Bilva (Aegle marmelos), stress management techniques, dietary modifications",
+        "Homeopathic_Treatment": "Nux vomica (for irritability with constipation), Colocynthis (for cramping pain), Lycopodium (for bloating), Argentum nitricum (for diarrhea with anxiety)",
+        "Allopathic_Treatment": "Antispasmodics, laxatives (for constipation), anti-diarrheals, antidepressants, probiotics, dietary modifications, stress management"
+    },
+    {
+        "Disease": "Acid Reflux (GERD)",
+        "Category": "Digestive",
+        "Symptoms": "Heartburn, regurgitation, difficulty swallowing, chest pain",
+        "Ayurvedic_Treatment": "Amalaki (Indian gooseberry), Yashtimadhu (licorice), Shatavari (Asparagus racemosus), lifestyle and dietary modifications",
+        "Homeopathic_Treatment": "Nux vomica (for acid reflux with irritability), Carbo vegetabilis (for bloating with burning), Arsenicum album (for burning pain with anxiety), Robinia (for intense acidity)",
+        "Allopathic_Treatment": "Proton pump inhibitors, H2 blockers, antacids, lifestyle modifications, surgery in severe cases"
+    },
+    {
+        "Disease": "Gallstones",
+        "Category": "Digestive",
+        "Symptoms": "Sudden pain in upper right abdomen, pain between shoulder blades, nausea, vomiting",
+        "Ayurvedic_Treatment": "Amalaki (Indian gooseberry), Punarnava (Boerhavia diffusa), Kutki (Picrorhiza kurroa), Bhringaraj (Eclipta alba)",
+        "Homeopathic_Treatment": "Chelidonium (for right-sided pain radiating to back), Berberis vulgaris (for radiating pain), China (for biliary colic), Lycopodium (for right-sided symptoms)",
+        "Allopathic_Treatment": "Pain management, lithotripsy, dissolving medications (ursodiol), laparoscopic gallbladder removal"
+    },
+    {
+        "Disease": "Hepatitis",
+        "Category": "Digestive",
+        "Symptoms": "Jaundice, abdominal pain, fatigue, dark urine, clay-colored stools",
+        "Ayurvedic_Treatment": "Kutki (Picrorhiza kurroa), Bhringaraj (Eclipta alba), Punarnava (Boerhavia diffusa), Kalmegh (Andrographis paniculata)",
+        "Homeopathic_Treatment": "Chelidonium (for right-sided pain with jaundice), Phosphorus (for acute hepatitis), Lycopodium (for chronic hepatitis), Carduus marianus (for liver inflammation)",
+        "Allopathic_Treatment": "Antivirals (for viral hepatitis), immunosuppressants (for autoimmune hepatitis), lifestyle modifications, liver transplant in severe cases"
+    },
+    {
+        "Disease": "Pancreatitis",
+        "Category": "Digestive",
+        "Symptoms": "Severe upper abdominal pain radiating to back, nausea, vomiting, fever",
+        "Ayurvedic_Treatment": "Amalaki (Indian gooseberry), Nimba (neem), Kutki (Picrorhiza kurroa), dietary restrictions, panchakarma therapy",
+        "Homeopathic_Treatment": "Iris versicolor (for pancreatic inflammation), Arsenicum album (for burning pain with anxiety), Phosphorus (for inflammation with weakness), Carbo vegetabilis (for bloating)",
+        "Allopathic_Treatment": "Pain management, IV fluids, fasting, antibiotics for infection, endoscopic procedures, surgery in severe cases"
+    },
+    {
+        "Disease": "Migraine",
+        "Category": "Neurological",
+        "Symptoms": "Throbbing headache (often one-sided), nausea, sensitivity to light/sound, visual disturbances",
+        "Ayurvedic_Treatment": "Jatamansi (Nardostachys jatamansi), Brahmi (Bacopa monnieri), Shankhpushpi (Convolvulus pluricaulis), Shirashuladi Vajra Ras, cold oil applications",
+        "Homeopathic_Treatment": "Belladonna (for throbbing headache), Natrum muriaticum (for headache with visual disturbances), Iris versicolor (for headache with nausea), Glonoinum (for violently throbbing headache)",
+        "Allopathic_Treatment": "NSAIDs, triptans, anti-nausea medications, CGRP antagonists, preventive medications (beta-blockers, anticonvulsants, botox)"
+    },
+    {
+        "Disease": "Epilepsy",
+        "Category": "Neurological",
+        "Symptoms": "Seizures, temporary confusion, staring spells, uncontrollable jerking movements",
+        "Ayurvedic_Treatment": "Brahmi (Bacopa monnieri), Shankhpushpi (Convolvulus pluricaulis), Jatamansi (Nardostachys jatamansi), Vacha (Acorus calamus), specialized diet",
+        "Homeopathic_Treatment": "Cicuta virosa (for violent convulsions), Bufo rana (for epilepsy with sexual overtones), Cuprum metallicum (for severe cramping), Oenanthe crocata (for violent seizures)",
+        "Allopathic_Treatment": "Anticonvulsant medications, ketogenic diet, vagus nerve stimulation, responsive neurostimulation, epilepsy surgery"
+    },
+    {
+        "Disease": "Parkinson's Disease",
+        "Category": "Neurological",
+        "Symptoms": "Tremor, bradykinesia (slowness of movement), rigid muscles, impaired posture and balance",
+        "Ayurvedic_Treatment": "Kapikacchu (Mucuna pruriens), Ashwagandha (Withania somnifera), Brahmi (Bacopa monnieri), Bala (Sida cordifolia)",
+        "Homeopathic_Treatment": "Mercurius solubilis (for tremors with excess saliva), Plumbum metallicum (for tremors with hardness), Rhus toxicodendron (for stiffness better with movement), Causticum (for tremors with weakness)",
+        "Allopathic_Treatment": "Levodopa, dopamine agonists, MAO-B inhibitors, COMT inhibitors, anticholinergics, deep brain stimulation"
+    },
+    {
+        "Disease": "Multiple Sclerosis",
+        "Category": "Neurological",
+        "Symptoms": "Fatigue, numbness/weakness in limbs, vision problems, coordination issues, slurred speech",
+        "Ayurvedic_Treatment": "Ashwagandha (Withania somnifera), Brahmi (Bacopa monnieri), Guduchi (Tinospora cordifolia), Rasayana therapy, yoga",
+        "Homeopathic_Treatment": "Gelsemium (for weakness and trembling), Phosphorus (for numbness and tingling), Argentum nitricum (for coordination problems), Alumina (for slow mental function)",
+        "Allopathic_Treatment": "Disease-modifying therapies (interferons, glatiramer acetate, ocrelizumab), corticosteroids for flares, symptomatic treatments"
+    },
+    {
+        "Disease": "Alzheimer's Disease",
+        "Category": "Neurological",
+        "Symptoms": "Memory loss, confusion, difficulty with familiar tasks, language problems, personality changes",
+        "Ayurvedic_Treatment": "Brahmi (Bacopa monnieri), Shankhpushpi (Convolvulus pluricaulis), Ashwagandha (Withania somnifera), Vacha (Acorus calamus), mental exercises",
+        "Homeopathic_Treatment": "Alumina (for mental confusion), Baryta carbonica (for memory problems in elderly), Phosphorus (for mental decline with anxiety), Anacardium (for memory loss with irritability)",
+        "Allopathic_Treatment": "Cholinesterase inhibitors, memantine, antidepressants, antipsychotics for behavioral symptoms, cognitive training"
+    },
+    {
+        "Disease": "Meningitis",
+        "Category": "Neurological",
+        "Symptoms": "Severe headache, stiff neck, fever, confusion, sensitivity to light",
+        "Ayurvedic_Treatment": "Guduchi (Tinospora cordifolia), Tulsi (Holy Basil), Kutki (Picrorhiza kurroa), cooling therapies",
+        "Homeopathic_Treatment": "Belladonna (for violent headache with fever), Apis mellifica (for stinging pain with swelling), Bryonia (for pain worse with movement), Helleborus (for drowsiness with stiff neck)",
+        "Allopathic_Treatment": "Antibiotics (for bacterial meningitis), antivirals (for viral meningitis), corticosteroids, anticonvulsants, supportive care"
+    },
+    {
+        "Disease": "Anxiety Disorders",
+        "Category": "Psychological",
+        "Symptoms": "Excessive worry, restlessness, fatigue, difficulty concentrating, irritability, sleep problems",
+        "Ayurvedic_Treatment": "Jatamansi (Nardostachys jatamansi), Brahmi (Bacopa monnieri), Ashwagandha (Withania somnifera), meditation, yoga, breathing exercises",
+        "Homeopathic_Treatment": "Argentum nitricum (for anxiety with anticipation), Aconitum napellus (for panic attacks), Gelsemium (for anxiety with weakness), Phosphorus (for anxiety with fearfulness)",
+        "Allopathic_Treatment": "Selective serotonin reuptake inhibitors (SSRIs), serotonin-norepinephrine reuptake inhibitors (SNRIs), benzodiazepines, cognitive behavioral therapy"
+    },
+    {
+        "Disease": "Major Depressive Disorder",
+        "Category": "Psychological",
+        "Symptoms": "Persistent sadness, loss of interest, sleep disturbances, fatigue, feelings of worthlessness",
+        "Ayurvedic_Treatment": "Brahmi (Bacopa monnieri), Ashwagandha (Withania somnifera), Jatamansi (Nardostachys jatamansi), Shankhpushpi (Convolvulus pluricaulis), yoga, meditation",
+        "Homeopathic_Treatment": "Aurum metallicum (for deep depression with suicidal thoughts), Natrum muriaticum (for depression with isolation), Ignatia (for depression after grief), Sepia (for indifference and irritability)",
+        "Allopathic_Treatment": "Selective serotonin reuptake inhibitors (SSRIs), serotonin-norepinephrine reuptake inhibitors (SNRIs), tricyclic antidepressants, psychotherapy"
+    },
+    {
+        "Disease": "Bipolar Disorder",
+        "Category": "Psychological",
+        "Symptoms": "Mood swings between depression and mania, changes in energy, activity, and sleep",
+        "Ayurvedic_Treatment": "Brahmi (Bacopa monnieri), Jatamansi (Nardostachys jatamansi), Shankhpushpi (Convolvulus pluricaulis), Vacha (Acorus calamus), routine stabilization",
+        "Homeopathic_Treatment": "Hyoscyamus (for mania with inappropriate behavior), Stramonium (for violent behavior), Veratrum album (for mania with grandiosity), Natrum sulphuricum (for mood swings)",
+        "Allopathic_Treatment": "Mood stabilizers (lithium, valproate), antipsychotics, antidepressants, psychotherapy, electroconvulsive therapy"
+    },
+    {
+        "Disease": "Schizophrenia",
+        "Category": "Psychological",
+        "Symptoms": "Hallucinations, delusions, disorganized thinking, reduced emotional expression, lack of motivation",
+        "Ayurvedic_Treatment": "Brahmi (Bacopa monnieri), Shankhpushpi (Convolvulus pluricaulis), Jatamansi (Nardostachys jatamansi), Sarpagandha (Rauwolfia serpentina)",
+        "Homeopathic_Treatment": "Hyoscyamus (for suspicious behavior), Stramonium (for violent behavior with hallucinations), Lachesis (for paranoia and suspicion), Anacardium (for contradiction between thoughts)",
+        "Allopathic_Treatment": "Antipsychotics (typical and atypical), psychosocial interventions, vocational rehabilitation, family education and support"
+    },
+    {
+        "Disease": "Post-Traumatic Stress Disorder",
+        "Category": "Psychological",
+        "Symptoms": "Flashbacks, nightmares, severe anxiety, uncontrollable thoughts about traumatic event",
+        "Ayurvedic_Treatment": "Jatamansi (Nardostachys jatamansi), Brahmi (Bacopa monnieri), Ashwagandha (Withania somnifera), Shirodhara therapy, yoga nidra",
+        "Homeopathic_Treatment": "Aconitum napellus (for fear and panic), Ignatia (for emotional trauma), Natrum muriaticum (for suppressed grief), Staphysagria (for suppressed anger)",
+        "Allopathic_Treatment": "Selective serotonin reuptake inhibitors (SSRIs), prazosin (for nightmares), trauma-focused cognitive behavioral therapy, EMDR"
+    },
+    {
+        "Disease": "Obsessive-Compulsive Disorder",
+        "Category": "Psychological",
+        "Symptoms": "Unwanted thoughts (obsessions), repetitive behaviors (compulsions), anxiety",
+        "Ayurvedic_Treatment": "Shankhpushpi (Convolvulus pluricaulis), Brahmi (Bacopa monnieri), Jatamansi (Nardostachys jatamansi), meditation techniques",
+        "Homeopathic_Treatment": "Arsenicum album (for fear of contamination), Silicea (for fixed ideas), Natrum muriaticum (for rigid thinking), Kali arsenicum (for anxiety with meticulousness)",
+        "Allopathic_Treatment": "Selective serotonin reuptake inhibitors (SSRIs), exposure and response prevention therapy, cognitive behavioral therapy"
+    },
+    {
+        "Disease": "Rheumatoid Arthritis",
+        "Category": "Musculoskeletal",
+        "Symptoms": "Joint pain, swelling, and stiffness, particularly in hands and feet, fatigue, fever",
+        "Ayurvedic_Treatment": "Shallaki (Boswellia serrata), Guggulu (Commiphora mukul), Rasna (Pluchea lanceolata), Nirgundi (Vitex negundo), Panchakarma therapy",
+        "Homeopathic_Treatment": "Rhus toxicodendron (for stiffness better with movement), Bryonia (for pain worse with movement), Apis mellifica (for stinging pain with swelling), Kalmia latifolia (for migratory pain)",
+        "Allopathic_Treatment": "Disease-modifying antirheumatic drugs (DMARDs), biologics, JAK inhibitors, corticosteroids, NSAIDs, physical therapy"
+    },
+    {
+        "Disease": "Osteoarthritis",
+        "Category": "Musculoskeletal",
+        "Symptoms": "Joint pain and stiffness, decreased range of motion, swelling, bone spurs",
+        "Ayurvedic_Treatment": "Guggulu (Commiphora mukul), Shallaki (Boswellia serrata), Ashwagandha (Withania somnifera), Rasna (Pluchea lanceolata), massage with medicated oils",
+        "Homeopathic_Treatment": "Rhus toxicodendron (for stiffness better with movement), Bryonia (for pain worse with movement), Ruta graveolens (for tendon and periosteum pain), Calcarea fluorica (for bone spurs)",
+        "Allopathic_Treatment": "NSAIDs, acetaminophen, duloxetine, intra-articular corticosteroid injections, viscosupplementation, joint replacement surgery"
+    },
+    {
+        "Disease": "Gout",
+        "Category": "Musculoskeletal",
+        "Symptoms": "Severe joint pain (especially big toe), swelling, redness, heat",
+        "Ayurvedic_Treatment": "Guduchi (Tinospora cordifolia), Punarnava (Boerhavia diffusa), Gokshura (Tribulus terrestris), dietary modifications",
+        "Homeopathic_Treatment": "Colchicum (for severe pain worse with movement), Ledum palustre (for ascending joint pain), Urtica urens (for stinging pain), Benzoic acid (for gout with strong-smelling urine)",
+        "Allopathic_Treatment": "NSAIDs, colchicine, corticosteroids, xanthine oxidase inhibitors (allopurinol, febuxostat), uricosurics, lifestyle modifications"
+    },
+    {
+        "Disease": "Fibromyalgia",
+        "Category": "Musculoskeletal",
+        "Symptoms": "Widespread pain, fatigue, sleep problems, cognitive difficulties, headaches",
+        "Ayurvedic_Treatment": "Ashwagandha (Withania somnifera), Bala (Sida cordifolia), Rasna (Pluchea lanceolata), stress management, abhyanga (oil massage)",
+        "Homeopathic_Treatment": "Rhus toxicodendron (for stiffness better with movement), Bryonia (for pain worse with movement), Kalmia latifolia (for migratory pain), Cimicifuga (for muscular pain)",
+        "Allopathic_Treatment": "Pregabalin, duloxetine, milnacipran, amitriptyline, physical therapy, cognitive behavioral therapy, exercise programs"
+    },
+    {
+        "Disease": "Osteoporosis",
+        "Category": "Musculoskeletal",
+        "Symptoms": "Often asymptomatic until fractures occur; back pain, loss of height, stooped posture",
+        "Ayurvedic_Treatment": "Godanti Bhasma, Praval Pishti, Laksha Guggulu, Asthishrinkhala (Cissus quadrangularis), strength-building yoga",
+        "Homeopathic_Treatment": "Calcarea phosphorica (for bone weakness), Symphytum (for fracture healing), Calcarea fluorica (for bone elasticity), Silicea (for poor assimilation)",
+        "Allopathic_Treatment": "Bisphosphonates, denosumab, teriparatide, raloxifene, calcium and vitamin D supplements, weight-bearing exercise"
+    },
+    {
+        "Disease": "Ankylosing Spondylitis",
+        "Category": "Musculoskeletal",
+        "Symptoms": "Lower back and hip pain, stiffness, reduced mobility in spine, fatigue",
+        "Ayurvedic_Treatment": "Maharasnadi kwath, Yogaraj guggulu, Rasna (Pluchea lanceolata), Nirgundi (Vitex negundo), specific yoga practices",
+        "Homeopathic_Treatment": "Rhus toxicodendron (for stiffness better with movement), Bryonia (for pain worse with movement), Kali carbonicum (for lower back weakness), Sulfur (for inflammatory conditions)",
+        "Allopathic_Treatment": "NSAIDs, TNF inhibitors, IL-17 inhibitors, physical therapy, posture training, surgery in severe cases"
+    },
+    {
+        "Disease": "Psoriasis",
+        "Category": "Dermatological",
+        "Symptoms": "Red, itchy, scaly patches on skin, most commonly on knees, elbows, trunk",
+        "Ayurvedic_Treatment": "Khadira (Acacia catechu), Nimba (neem), Haridra (turmeric), Manjistha (Rubia cordifolia), blood-purifying herbs, external applications",
+        "Homeopathic_Treatment": "Graphites (for thick skin eruptions), Arsenicum album (for dry scaly eruptions with burning), Petroleum (for cracked skin), Sulfur (for itchy, burning eruptions)",
+        "Allopathic_Treatment": "Topical corticosteroids, vitamin D analogues, retinoids, coal tar, phototherapy, biologics, oral systemic medications"
+    },
+    {
+        "Disease": "Eczema (Atopic Dermatitis)",
+        "Category": "Dermatological",
+        "Symptoms": "Dry, itchy, inflamed skin, rashes, oozing and crusting",
+        "Ayurvedic_Treatment": "Nimba (neem), Haridra (turmeric), Manjistha (Rubia cordifolia), Guduchi (Tinospora cordifolia), coconut oil applications",
+        "Homeopathic_Treatment": "Graphites (for weeping eruptions that crust over), Petroleum (for cracked skin), Sulfur (for itchy, burning eruptions), Rhus toxicodendron (for vesicular eruptions)",
+        "Allopathic_Treatment": "Topical corticosteroids, topical calcineurin inhibitors, moisturizers, antihistamines, phototherapy, biologics (dupilumab)"
+    },
+    {
+        "Disease": "Acne Vulgaris",
+        "Category": "Dermatological",
+        "Symptoms": "Pimples, blackheads, whiteheads, inflammation, scarring",
+        "Ayurvedic_Treatment": "Nimba (neem), Haridra (turmeric), Sariva (Hemidesmus indicus), Manjistha (Rubia cordifolia), blood-purifying herbs",
+        "Homeopathic_Treatment": "Hepar sulphuris (for painful pustules), Sulfur (for oily skin with eruptions), Kali bromatum (for acne with anxiety), Berberis aquifolium (for chronic skin conditions)",
+        "Allopathic_Treatment": "Topical retinoids, benzoyl peroxide, antibiotics, azelaic acid, oral isotretinoin, hormonal therapy for women"
+    },
+    {
+        "Disease": "Vitiligo",
+        "Category": "Dermatological",
+        "Symptoms": "White patches on skin due to loss of pigmentation",
+        "Ayurvedic_Treatment": "Bakuchi (Psoralea corylifolia), Khadira (Acacia catechu), Haridra (turmeric), external applications, sun exposure",
+        "Homeopathic_Treatment": "Arsenicum album (for patches with burning), Natrum muriaticum (for depigmentation with emotional issues), Sepia (for patches with hormonal imbalance), Sulfur (for skin problems with itching)",
+        "Allopathic_Treatment": "Topical corticosteroids, calcineurin inhibitors, phototherapy, skin grafting, depigmentation therapy"
+    },
+    {
+        "Disease": "Urticaria (Hives)",
+        "Category": "Dermatological",
+        "Symptoms": "Red, itchy, raised welts on skin that appear suddenly",
+        "Ayurvedic_Treatment": "Nimba (neem), Manjistha (Rubia cordifolia), Guduchi (Tinospora cordifolia), Sariva (Hemidesmus indicus), cooling therapies",
+        "Homeopathic_Treatment": "Apis mellifica (for stinging, burning welts), Urtica urens (for stinging itching), Rhus toxicodendron (for itching worse at night), Histaminum (for allergic hives)",
+        "Allopathic_Treatment": "Antihistamines, corticosteroids, anti-inflammatory medications, omalizumab for chronic cases"
+    },
+    {
+        "Disease": "Fungal Skin Infections",
+        "Category": "Dermatological",
+        "Symptoms": "Itchy, red, scaly patches, often in moist areas of body",
+        "Ayurvedic_Treatment": "Haridra (turmeric), Nimba (neem), Daruharidra (Berberis aristata), Chakramarda (Cassia tora), external applications",
+        "Homeopathic_Treatment": "Graphites (for moist eruptions between folds), Sepia (for ringworm), Sulfur (for burning, itchy eruptions), Bacillinum (for persistent infections)",
+        "Allopathic_Treatment": "Topical antifungals (clotrimazole, miconazole), oral antifungals (fluconazole, terbinafine), keeping affected areas dry"
+    },
+    {
+        "Disease": "Malaria",
+        "Category": "Infectious",
+        "Symptoms": "Fever, chills, sweating, headache, nausea, vomiting, muscle pain",
+        "Ayurvedic_Treatment": "Guduchi (Tinospora cordifolia), Chirayata (Swertia chirata),",
+        "Homeopathic_Treatment": "",
+        "Allopathic_Treatment": ""
+    },
+    {
+        "Disease": "Teething Problems",
+        "Category": "Developmental",
+        "Symptoms": "Irritability, sore gums, excessive drooling, mild fever, difficulty sleeping, reduced appetite, chewing on objects, cheek rubbing",
+        "Ayurvedic_Treatment": "Dantshoolhara powder (mix of Yashtimadhu/licorice and Vacha/sweet flag) applied to gums, Erand Taila (castor oil) gently rubbed on gums, Haritaki chewable pieces, coconut oil massage around jawline",
+        "Homeopathic_Treatment": "Chamomilla (for irritability and pain), Calcarea phosphorica (for delayed dentition), Belladonna (for inflammation with heat), Coffea (for pain with sleeplessness), Podophyllum (for teething with diarrhea)",
+        "Allopathic_Treatment": "Topical analgesics (benzocaine gels), oral pain relievers (infant acetaminophen/ibuprofen), cold teething rings, clean wet washcloth for chewing"
+    },
+    {
+        "Disease": "Infantile Colic",
+        "Category": "Gastroenterological",
+        "Symptoms": "Prolonged crying (3+ hours a day), fussiness, facial redness, drawing up of legs, clenched fists, bloated abdomen",
+        "Ayurvedic_Treatment": "Dill water, Saunf (fennel) water, Ajwain (carom seed) water, gentle stomach massage with warm sesame oil, Dashamoola drops, Hingwashtak churna in minimal doses",
+        "Homeopathic_Treatment": "Colocynthis (for colic improved by bending over), Chamomilla (for extreme irritability), Dioscorea (for colic improved by stretching), Magnesia phosphorica (for spasmodic pain improved by heat), Carbo vegetabilis (for bloating with gas)",
+        "Allopathic_Treatment": "Simethicone drops, probiotics, gentle movement/rocking, addressing feeding habits (burping, feeding position), modified diet if breastfeeding, specialized formulas if formula-fed",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Common Cold in Children",
+        "Category": "Respiratory",
+        "Symptoms": "Nasal congestion, runny nose, sneezing, cough, sore throat, mild fever, reduced appetite",
+        "Ayurvedic_Treatment": "Tulsi (Holy Basil) drops in honey, Marich (black pepper) and honey mix, Haldi (turmeric) milk, steam inhalation with Pudina (mint), Sitopaladi churna in small doses, Talisadi churna",
+        "Homeopathic_Treatment": "Aconite (for sudden onset), Belladonna (for high fever with redness), Euphrasia (for watery eyes and runny nose), Pulsatilla (for thick yellow-green discharge with clingy behavior), Ferrum phosphoricum (for early stage infections)",
+        "Allopathic_Treatment": "Nasal saline drops, humidifier, adequate fluids, rest, acetaminophen/ibuprofen for fever and discomfort (age-appropriate dosing), honey for cough in children over 1 year",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Childhood Eczema (Atopic Dermatitis)",
+        "Category": "Dermatological",
+        "Symptoms": "Dry, itchy, inflamed skin patches, most commonly on face, behind ears, on scalp, hands, and in skin folds",
+        "Ayurvedic_Treatment": "Nimba (neem) paste, Haridra (turmeric) with coconut oil, Manjistha (Rubia cordifolia), Guduchi (Tinospora cordifolia) internal formulations, Karanja oil applications, Triphala for internal cleansing",
+        "Homeopathic_Treatment": "Graphites (for moist eczema that cracks and oozes), Petroleum (for dry cracked skin worse in winter), Sulfur (for itchy eruptions worse with heat), Rhus toxicodendron (for vesicular eruptions), Arsenicum album (for dry scaly eruptions with burning and anxiety)",
+        "Allopathic_Treatment": "Emollients/moisturizers, topical corticosteroids (mild strength for children), topical calcineurin inhibitors, antihistamines for itching, wet wraps, identifying and avoiding triggers",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Childhood Asthma",
+        "Category": "Respiratory",
+        "Symptoms": "Wheezing, coughing (especially at night), shortness of breath, chest tightness, rapid breathing, anxiety",
+        "Ayurvedic_Treatment": "Vasaka (Adhatoda vasica) syrup, Kantakari (Solanum xanthocarpum), simple breathing exercises, Chyawanprash, Talisadi churna, Sitopaladi churna, Yashtimadhu (licorice) syrup",
+        "Homeopathic_Treatment": "Arsenicum album (for anxiety with breathing difficulty), Ipecacuanha (for cough with nausea), Natrum sulphuricum (for asthma worsened by humidity), Antimonium tartaricum (for rattling mucus)",
+        "Allopathic_Treatment": "Inhaled corticosteroids, short-acting bronchodilators (rescue inhalers), leukotriene modifiers, combination inhalers, identifying and avoiding triggers, action plan for exacerbations",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Chickenpox",
+        "Category": "Infectious",
+        "Symptoms": "Itchy red rash that becomes fluid-filled blisters, fever, fatigue, headache, loss of appetite",
+        "Ayurvedic_Treatment": "Neem (Azadirachta indica) bath and applications, Manjistha (Rubia cordifolia), Guduchi (Tinospora cordifolia), cooling pastes of sandalwood, turmeric, and aloe vera, Tikta Ghrita",
+        "Homeopathic_Treatment": "Antimonium tartaricum (for pustule formation), Rhus toxicodendron (for intense itching worse at night), Pulsatilla (for mild cases with weepiness), Apis mellifica (for swelling and stinging pains)",
+        "Allopathic_Treatment": "Acetaminophen for fever (avoid aspirin), calamine lotion, antihistamines for itching, cool baths with colloidal oatmeal, keeping nails short, adequate hydration, varicella vaccine for prevention",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Otitis Media (Ear Infection)",
+        "Category": "ENT",
+        "Symptoms": "Ear pain, irritability, tugging at ears, difficulty sleeping, fever, hearing difficulties, balance problems",
+        "Ayurvedic_Treatment": "Garlic oil ear drops (not directly in ear if perforated), Tulsi (Holy Basil) juice with honey, Bilva (Aegle marmelos) root decoction, warming compresses with sesame oil",
+        "Homeopathic_Treatment": "Belladonna (for sudden intense pain with redness), Pulsatilla (for thick yellow discharge with weepiness), Chamomilla (for extreme irritability with pain), Hepar sulphuris (for extreme sensitivity to cold and touch)",
+        "Allopathic_Treatment": "Antibiotics for bacterial infections, pain relievers (acetaminophen/ibuprofen), warm compresses, evaluation for ear tubes in recurrent cases, watchful waiting approach in mild cases",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Mumps",
+        "Category": "Infectious",
+        "Symptoms": "Swollen salivary glands, fever, headache, muscle aches, fatigue, loss of appetite",
+        "Ayurvedic_Treatment": "Aragwadha (Cassia fistula) paste externally, Yashtimadhu (licorice) with honey, Amalaki (Indian gooseberry) juice, warm Turmeric milk, Guduchi (Tinospora cordifolia)",
+        "Homeopathic_Treatment": "Belladonna (for bright red inflammation with throbbing), Mercurius solubilis (for excessive salivation), Phytolacca (for hard painful glands), Pulsatilla (for mild cases with weepiness)",
+        "Allopathic_Treatment": "Pain relievers (acetaminophen/ibuprofen), applying warm or cold compresses, soft foods, adequate hydration, rest, MMR vaccine for prevention",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Measles",
+        "Category": "Infectious",
+        "Symptoms": "Red blotchy rash, high fever, cough, runny nose, red watery eyes, white spots inside mouth, malaise",
+        "Ayurvedic_Treatment": "Guduchi (Tinospora cordifolia), Neem (Azadirachta indica), Tulsi (Holy Basil), cooling herbs like Coriander and Sandalwood, Yashtimadhu (licorice) syrup",
+        "Homeopathic_Treatment": "Aconite (for early stages with fever), Belladonna (for high fever with redness), Euphrasia (for watery eyes and runny nose), Pulsatilla (for mild cases with tearfulness)",
+        "Allopathic_Treatment": "Vitamin A supplementation, fever reducers (acetaminophen/ibuprofen), adequate hydration, rest, humidified air, MMR vaccine for prevention",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Diarrhea in Children",
+        "Category": "Gastroenterological",
+        "Symptoms": "Loose watery stools, abdominal pain/cramping, fever, dehydration, urgency, blood or mucus in stool",
+        "Ayurvedic_Treatment": "Kutaja (Holarrhena antidysenterica), Nutmeg and Mango seed paste, Bilva (Aegle marmelos), Dadima (pomegranate) peel decoction, Musli (Curculigo orchioides)",
+        "Homeopathic_Treatment": "Podophyllum (for painless, profuse, offensive diarrhea), Chamomilla (for diarrhea during teething with irritability), Arsenicum album (for burning diarrhea with anxiety), Veratrum album (for profuse watery diarrhea with coldness), China officinalis (for diarrhea causing weakness)",
+        "Allopathic_Treatment": "Oral rehydration solution, probiotics, zinc supplements, continued feeding during illness, antimicrobials if bacterial or parasitic, anti-diarrheals generally not recommended for children",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Tonsillitis",
+        "Category": "ENT",
+        "Symptoms": "Sore throat, swollen tonsils, difficulty swallowing, fever, headache, ear pain, swollen lymph nodes, fatigue",
+        "Ayurvedic_Treatment": "Yashtimadhu (licorice) with honey, Turmeric milk, Tulsi (Holy Basil) tea, Haritaki gargle, Triphala gargle, Bibhitaki (Terminalia bellirica)",
+        "Homeopathic_Treatment": "Belladonna (for bright red tonsils with throbbing), Hepar sulphuris (for sharp splinter-like pain), Mercurius solubilis (for bad breath and excessive salivation), Phytolacca (for dark red throat with shooting pains to ears)",
+        "Allopathic_Treatment": "Antibiotics for bacterial infections, pain relievers (acetaminophen/ibuprofen), warm salt water gargles (for older children), adequate hydration, rest, tonsillectomy for recurrent severe cases",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Conjunctivitis (Pink Eye)",
+        "Category": "Ophthalmological",
+        "Symptoms": "Red/pink eye, eye discharge, tearing, itching, burning, blurred vision, light sensitivity",
+        "Ayurvedic_Treatment": "Triphala eye wash (diluted), Rose water compresses, Haridra (turmeric) with milk externally, Amalaki (Indian gooseberry), Yashtimadhu (licorice) internally",
+        "Homeopathic_Treatment": "Euphrasia (for watery irritated eyes), Apis mellifica (for swelling with stinging pain), Argentum nitricum (for thick purulent discharge), Pulsatilla (for yellow-green discharge better in open air)",
+        "Allopathic_Treatment": "Bacterial: antibiotic eye drops; Viral: artificial tears, cold compresses; Allergic: antihistamine eye drops; Hygiene measures, avoiding touching eyes, separate towels/pillowcases",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Attention Deficit Hyperactivity Disorder (ADHD)",
+        "Category": "Neurodevelopmental",
+        "Symptoms": "Inattention, hyperactivity, impulsivity, difficulty focusing, fidgeting, interrupting, difficulty organizing tasks",
+        "Ayurvedic_Treatment": "Brahmi (Bacopa monnieri), Shankhpushpi (Convolvulus pluricaulis), Ashwagandha (Withania somnifera), Yashtimadhu (licorice), meditation and yoga practices",
+        "Homeopathic_Treatment": "Tarentula hispanica (for restlessness), Cina (for irritability with worm symptoms), Hyoscyamus (for impulsivity), Stramonium (for hyperactivity with fearfulness), Verta alb (for restlessness with anxiety)",
+        "Allopathic_Treatment": "Stimulant medications (methylphenidate, amphetamine derivatives), non-stimulants (atomoxetine, guanfacine), behavioral therapy, parent training, educational support, routine establishment",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Autism Spectrum Disorder",
+        "Category": "Neurodevelopmental",
+        "Symptoms": "Social communication challenges, repetitive behaviors, restricted interests, sensory sensitivities, speech delays, difficulty with transitions",
+        "Ayurvedic_Treatment": "Brahmi (Bacopa monnieri), Shankhpushpi (Convolvulus pluricaulis), Ashwagandha (Withania somnifera), Shirodhara therapy, sensory integration activities, specialized massage",
+        "Homeopathic_Treatment": "Baryta carbonica (for developmental delays), Carcinosin (for developmental issues), Natrum muriaticum (for withdrawn children), Stramonium (for fearfulness), Saccharum officinale (for craving sweets with developmental issues)",
+        "Allopathic_Treatment": "Behavioral therapies (Applied Behavioral Analysis), speech therapy, occupational therapy, social skills training, special education services, medications for specific symptoms (irritability, hyperactivity)",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Childhood Obesity",
+        "Category": "Metabolic",
+        "Symptoms": "BMI at or above 95th percentile for age and sex, excessive weight gain, early puberty, sleep apnea, joint problems, psychological issues",
+        "Ayurvedic_Treatment": "Triphala, Haritaki, Guggulu, Medohar formulations, physical activity regimens, diet modifications emphasizing whole foods, mindful eating practices",
+        "Homeopathic_Treatment": "Calcarea carbonica (for slow metabolism), Graphites (for obesity with skin issues), Lycopodium (for bloating and eating disorders), Natrum muriaticum (for emotional eating), Phytolacca (for metabolic support)",
+        "Allopathic_Treatment": "Dietary modifications, increased physical activity, reduced screen time, family-based interventions, behavioral therapy, treatment of underlying conditions, rarely medication or surgery for severe cases",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Type 1 Diabetes",
+        "Category": "Endocrine",
+        "Symptoms": "Increased thirst/hunger, frequent urination, weight loss, fatigue, blurred vision, mood changes",
+        "Ayurvedic_Treatment": "Gudmar (Gymnema sylvestre), Jamun (Syzygium cumini), Amla (Indian gooseberry), Neem (Azadirachta indica), Methika (fenugreek), lifestyle and dietary support",
+        "Homeopathic_Treatment": "Uranium nitricum (for excessive urination and sugar), Phosphoric acid (for weakness), Syzygium jambolanum (for pancreatic support), Abroma augusta (for diabetic symptoms)",
+        "Allopathic_Treatment": "Insulin therapy (basal-bolus regimen), blood glucose monitoring, carbohydrate counting, lifestyle management, regular medical follow-up, patient/family education, technology (insulin pumps, continuous glucose monitors)",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Febrile Seizures",
+        "Category": "Neurological",
+        "Symptoms": "Seizures triggered by fever, loss of consciousness, stiff/jerking limbs, eye rolling, brief post-seizure drowsiness",
+        "Ayurvedic_Treatment": "Brahmi (Bacopa monnieri), Shankhpushpi (Convolvulus pluricaulis), Vacha (Acorus calamus) in minimal doses, cooling herbs like Coriander and Sandalwood",
+        "Homeopathic_Treatment": "Belladonna (for sudden high fever with bright red face), Aconite (for seizures from fright), Cuprum metallicum (for severe cramping), Bufo rana (for epileptic seizures)",
+        "Allopathic_Treatment": "Fever reduction (acetaminophen/ibuprofen), positioning child safely during seizure, medical evaluation after first seizure, rarely anticonvulsants for recurrent or complex cases",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Juvenile Idiopathic Arthritis",
+        "Category": "Autoimmune",
+        "Symptoms": "Joint pain, swelling, stiffness, fatigue, limited mobility, rash, fever, lymph node enlargement",
+        "Ayurvedic_Treatment": "Shallaki (Boswellia serrata), Guggulu (Commiphora mukul), Ashwagandha (Withania somnifera), Rasna (Pluchea lanceolata), gentle oil massage",
+        "Homeopathic_Treatment": "Rhus toxicodendron (for stiffness better with movement), Bryonia (for pain worse with movement), Apis mellifica (for hot swollen joints), Pulsatilla (for wandering pains)",
+        "Allopathic_Treatment": "NSAIDs, DMARDs, corticosteroids, biologics, physical/occupational therapy, regular eye examinations, adequate nutrition and calcium, psychological support",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Anxiety Disorders in Children",
+        "Category": "Psychological",
+        "Symptoms": "Excessive worry, school refusal, somatic complaints (headaches, stomachaches), sleep problems, irritability, fear of separation",
+        "Ayurvedic_Treatment": "Jatamansi (Nardostachys jatamansi), Brahmi (Bacopa monnieri), Ashwagandha (Withania somnifera), gentle Shirodhara, child-appropriate meditation",
+        "Homeopathic_Treatment": "Argentum nitricum (for anticipatory anxiety), Gelsemium (for performance anxiety with weakness), Phosphorus (for anxiety with fearfulness), Pulsatilla (for clingy behavior), Aconite (for panic attacks)",
+        "Allopathic_Treatment": "Cognitive-behavioral therapy, family therapy, relaxation techniques, school accommodations, selective serotonin reuptake inhibitors (SSRIs) for severe cases, parent training",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Language Developmental Delay",
+        "Category": "Neurodevelopmental",
+        "Symptoms": "Late talking, limited vocabulary, difficulty forming sentences, trouble understanding speech, frustration with communication",
+        "Ayurvedic_Treatment": "Brahmi (Bacopa monnieri), Shankhpushpi (Convolvulus pluricaulis), Ashwagandha (Withania somnifera), Vacha (Acorus calamus) in minimal doses, Saraswatarishta",
+        "Homeopathic_Treatment": "Baryta carbonica (for developmental delays), Calcarea phosphorica (for slow development), Natrum muriaticum (for speech delays with sensitivity), Carcinosin (for developmental issues)",
+        "Allopathic_Treatment": "Speech and language therapy, early intervention services, auditory processing evaluation, parent training in language facilitation techniques, addressing any underlying issues (hearing, etc.)",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Growth Delays",
+        "Category": "Developmental",
+        "Symptoms": "Height/weight below 3rd percentile or significant drop in growth curve, delayed puberty, disproportionate body parts",
+        "Ayurvedic_Treatment": "Ashwagandha (Withania somnifera), Shatavari (Asparagus racemosus), Bala (Sida cordifolia), Yashtimadhu (licorice), Mineral Bhasmas, Chyawanprash",
+        "Homeopathic_Treatment": "Calcarea phosphorica (for bone development), Baryta carbonica (for delayed development), Silicea (for poor assimilation of nutrients), Phosphorus (for tall thin children with weakness)",
+        "Allopathic_Treatment": "Evaluation for underlying causes, nutritional intervention, growth hormone therapy for specific conditions, treatment of any underlying medical conditions, regular monitoring",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Respiratory Syncytial Virus (RSV)",
+        "Category": "Respiratory",
+        "Symptoms": "Runny nose, decrease in appetite, coughing, sneezing, fever, wheezing, labored breathing, nostril flaring, chest retractions",
+        "Ayurvedic_Treatment": "Tulsi (Holy Basil), Vasa (Adhatoda vasica), Kantakari (Solanum xanthocarpum), Pushkarmool (Inula racemosa), honey with ginger for older children",
+        "Homeopathic_Treatment": "Antimonium tartaricum (for rattling mucus), Drosera (for barking cough), Ipecacuanha (for cough with nausea), Kali bichromicum (for thick stringy mucus)",
+        "Allopathic_Treatment": "Supportive care, adequate hydration, suction of nasal secretions, humidified air, oxygen therapy if needed, rarely antiviral medications, monoclonal antibody prophylaxis for high-risk infants",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Impetigo",
+        "Category": "Dermatological",
+        "Symptoms": "Red sores that break open and crust over (honey-colored crust), primarily on face around nose and mouth",
+        "Ayurvedic_Treatment": "Haridra (turmeric) paste, Nimba (neem) applications, Triphala wash, Manjistha (Rubia cordifolia) internally, Chandana (sandalwood) applications",
+        "Homeopathic_Treatment": "Antimonium crudum (for thick crusty eruptions), Arsenicum album (for burning painful lesions), Graphites (for oozing eruptions that crust), Hepar sulphuris (for extremely painful skin infections)",
+        "Allopathic_Treatment": "Topical antibiotics (mupirocin) for limited infections, oral antibiotics for widespread cases, gentle cleansing, preventing spread through hygiene measures",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Hand",
+        "Category": " Foot",
+        "Symptoms": " and Mouth Disease",
+        "Ayurvedic_Treatment": "Infectious",
+        "Homeopathic_Treatment": "Painful mouth sores, skin rash on hands and feet, fever, sore throat, irritability, loss of appetite",
+        "Allopathic_Treatment": "Yashtimadhu (licorice) with honey, Guduchi (Tinospora cordifolia), cooling herbs, Amalaki (Indian gooseberry), Triphala mouthwash",
+        "FIELD7": "Belladonna (for fever with bright red eruptions), Mercurius solubilis (for mouth ulcers with excessive salivation), Antimonium crudum (for white-coated tongue), Borax (for mouth ulcers with extreme sensitivity)",
+        "FIELD8": "Supportive care, pain relievers (acetaminophen/ibuprofen), cold fluids and soft foods, adequate hydration, saltwater rinses for older children"
+    },
+    {
+        "Disease": "Kawasaki Disease",
+        "Category": "Autoimmune",
+        "Symptoms": "Persistent high fever, rash, red eyes, red lips/tongue, swollen hands/feet, lymph node enlargement, irritability",
+        "Ayurvedic_Treatment": "Guduchi (Tinospora cordifolia), cooling herbs, Shatavari (Asparagus racemosus), anti-inflammatory herbs, supportive care",
+        "Homeopathic_Treatment": "Aconite (for sudden onset with fever), Belladonna (for high fever with redness), Apis mellifica (for swelling with stinging), Rhus toxicodendron (for restlessness)",
+        "Allopathic_Treatment": "Intravenous immunoglobulin (IVIG), aspirin therapy, corticosteroids, echocardiogram monitoring, supportive care, long-term cardiac follow-up",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Scarlet Fever",
+        "Category": "Infectious",
+        "Symptoms": "Red rash that feels like sandpaper, sore throat, high fever, strawberry tongue, flushed face with pale ring around mouth",
+        "Ayurvedic_Treatment": "Guduchi (Tinospora cordifolia), Yashtimadhu (licorice) with honey, cooling herbs, Neem (Azadirachta indica), Triphala",
+        "Homeopathic_Treatment": "Belladonna (for bright red skin with fever), Apis mellifica (for swelling with stinging), Rhus toxicodendron (for restlessness with red rash), Mercurius solubilis (for throat inflammation with excessive salivation)",
+        "Allopathic_Treatment": "Antibiotics (penicillin/amoxicillin), fever reducers (acetaminophen/ibuprofen), adequate hydration, soft foods for sore throat, rest",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Diaper Rash",
+        "Category": "Dermatological",
+        "Symptoms": "Red, inflamed skin in diaper area, scaling, small red bumps or blisters, discomfort, crying during diaper changes",
+        "Ayurvedic_Treatment": "Yashtimadhu (licorice) paste, Haridra (turmeric) with coconut oil, Triphala wash, Amalaki (Indian gooseberry) paste, Ghee applications",
+        "Homeopathic_Treatment": "Calendula (for raw skin), Graphites (for moist eczematous conditions), Medorrhinum (for persistent diaper rash), Sulphur (for red burning rash), Borax (for rash with sensitivity)",
+        "Allopathic_Treatment": "Frequent diaper changes, gentle cleaning, allowing skin to dry, zinc oxide cream, antifungal creams for yeast infections, brief diaper-free time, avoiding irritants in wipes/diapers",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Cerebral Palsy",
+        "Category": "Neurodevelopmental",
+        "Symptoms": "Impaired movement, abnormal reflexes, floppiness or rigidity of limbs, abnormal posture, involuntary movements, delays in motor skills",
+        "Ayurvedic_Treatment": "Ashwagandha (Withania somnifera), Brahmi (Bacopa monnieri), Bala (Sida cordifolia), specialized Snehana and Swedana (oil massage and steam), Nasya therapy",
+        "Homeopathic_Treatment": "Agaricus (for involuntary movements), Cicuta virosa (for convulsions), Causticum (for paralysis and contractures), Helleborus (for dullness and slow response)",
+        "Allopathic_Treatment": "Physical therapy, occupational therapy, speech therapy, medications for spasticity (baclofen, botulinum toxin), orthopedic surgery when needed, assistive devices, special education services",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Failure to Thrive",
+        "Category": "Developmental",
+        "Symptoms": "Weight below 3rd percentile or crossing downward on growth chart, delayed developmental milestones, fatigue, irritability, decreased activity levels",
+        "Ayurvedic_Treatment": "Shatavari (Asparagus racemosus), Ashwagandha (Withania somnifera), Bala (Sida cordifolia), Chyawanprash, specialized nutritional formulations",
+        "Homeopathic_Treatment": "Calcarea phosphorica (for poor growth), Natrum muriaticum (for poor weight gain despite eating), Silicea (for poor assimilation), Iodum (for rapid metabolism), Abrotanum (for malnutrition)",
+        "Allopathic_Treatment": "Identifying and treating underlying conditions, high-calorie diet, nutritional supplements, feeding therapy, parental education, hospitalization in severe cases, regular growth monitoring",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Fifth Disease (Erythema Infectiosum)",
+        "Category": "Infectious",
+        "Symptoms": "Bright red rash on cheeks ('slapped cheek' appearance), lacy red rash on trunk and limbs, low-grade fever, headache, sore throat",
+        "Ayurvedic_Treatment": "Guduchi (Tinospora cordifolia), Tulsi (Holy Basil), cooling herbs, Neem (Azadirachta indica), Chandan (sandalwood)",
+        "Homeopathic_Treatment": "Belladonna (for bright red rash with heat), Rhus toxicodendron (for itchy rash), Pulsatilla (for rash with weepiness), Apis mellifica (for swelling with stinging)",
+        "Allopathic_Treatment": "Supportive care, acetaminophen/ibuprofen for fever or discomfort, adequate hydration, rest, monitoring of complications in at-risk groups",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Celiac Disease",
+        "Category": "Autoimmune",
+        "Symptoms": "Abdominal pain, diarrhea, bloating, weight loss, irritability, delayed growth, fatigue, anemia",
+        "Ayurvedic_Treatment": "Haritaki, Guduchi (Tinospora cordifolia), Amalaki (Indian gooseberry), specialized diet modifications, digestive herbs",
+        "Homeopathic_Treatment": "Natrum muriaticum (for malabsorption), Phosphorus (for malnutrition), Arsenicum album (for digestive burning), Lycopodium (for bloating and digestive weakness)",
+        "Allopathic_Treatment": "Strict gluten-free diet, nutritional supplements (iron, calcium, folate, vitamin D, B12), monitoring for complications, education on gluten-free living",
+        "FIELD7": "",
+        "FIELD8": ""
+    },
+    {
+        "Disease": "Scoliosis",
+        "Category": "Musculoskeletal",
+        "Symptoms": "Uneven shoulders, one prominent shoulder blade, uneven waist, elevated hip, leaning to one side",
+        "Ayurvedic_Treatment": "Ashwagandha (Withania somnifera), Rasna (Pluchea lanceolata), Nirgundi (Vitex negundo), specialized oil massage, specific yoga asanas",
+        "Homeopathic_Treatment": "Calcarea phosphorica (for bone development), Phosphorus (for spine issues), Silicea (for structural support), Thuja occidentalis (for asymmetrical growth)",
+        "Allopathic_Treatment": "Observation for mild cases, bracing for moderate cases, surgery for severe cases, physical therapy, regular monitoring during growth periods",
+        "FIELD7": "",
+        "FIELD8": ""
+    }
+]
